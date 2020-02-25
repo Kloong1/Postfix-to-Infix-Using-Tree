@@ -1,5 +1,6 @@
 #include <stdio.h>
-#define ElementType int
+#include "tree.h"
+#define ElementType NODE*
 #define STACK_CAPACITY 1024
 
 typedef struct _STACK{
